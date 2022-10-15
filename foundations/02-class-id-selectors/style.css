@@ -1,0 +1,19 @@
+.odin {
+font-family: Verdana, DejaVu Sans, sans-serif;
+background-color: rgb(219, 167, 176)
+}
+
+.odin2 {
+    font-size: 24px;
+}
+
+#odin3 {
+color: blue;
+font-size: 36px;
+}
+
+#odin4 {
+font-style: bold;
+font-size: 24px;
+background-color: rgb(144, 238, 144)
+}
