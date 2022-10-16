@@ -16,12 +16,11 @@ img {
 
 .header-plants {
   display: flex;
-  justify-content: space-around;
+  gap: 52px;
 }
 
 .infobox {
-  width: 200px;
-  gap: 52px ;
+  max-width: 200px;
   text-align: center;
 }
 
