@@ -44,13 +44,11 @@ input {
 
 .right-links { 
   display: flex;
-  justify-content: flex-end;
   border: dotted 5px red;
 }
 
 .left-links{
   display: flex;
-  justify-content: flex-end;
   border: dotted 5px red;
 }
 
