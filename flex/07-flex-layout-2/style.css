@@ -8,17 +8,36 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
 }
 
 .sidebar {
   width: 300px;
+  height:100%;
   background: royalblue;
+}
+
+.card-container{
+  margin-left: 300px;
+  gap: 32px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .card {
