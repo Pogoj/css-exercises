@@ -13,6 +13,11 @@ img {
   width: 600px;
 }
 
+* > ul {
+  gap: 36px;
+
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
@@ -30,31 +35,33 @@ input {
 
 .header{
   display: flex;
-  flex-direction: row;
   background: lightgray;
-  border: dotted 5px black;
+  padding: 6px 18px;
 }
 
 .footer{
   display: flex;
   background: lightblue;
   margin-top: auto;
-  border: dotted 5px black;
+  padding: 6px 18px;
 }
 
 .right-links { 
   display: flex;
-  border: dotted 5px red;
+  min-width: 50%;
+  justify-content: flex-end;
 }
 
 .left-links{
   display: flex;
-  border: dotted 5px red;
+  min-width: 50%;
 }
+
 
 .right-links,
 .left-links, a{
-  gap: 8px;
+  padding-inline-start: 0;
+  gap: 2em;
   list-style: none;
   text-decoration: none;
 }
