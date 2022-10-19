@@ -19,6 +19,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: .5em 24px
 }
 
 input {
@@ -31,14 +32,12 @@ input {
 
 .header {
   display: flex;
-  background: lightgray;
   padding: 6px 18px;
 }
 
 .footer {
   display: flex;
-  background: lightblue;
-  margin-top: auto;
+  background: lightgray;
   padding: 6px 18px;
 }
 
@@ -59,6 +58,7 @@ input {
   gap: 2em;
   list-style: none;
   text-decoration: none;
+  color: black
 }
 
 .content {
