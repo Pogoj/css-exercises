@@ -26,21 +26,32 @@ body {
   margin-top: auto;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
 .sidebar {
-  width: 300px;
-  height: 100%;
+  min-width: 300px;
+  min-height: auto;
   background: royalblue;
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar a:link, .sidebar li {
   list-style: none;
   text-decoration: none;
   color: white;
-  padding: 12px;
+  font-size: 24px;
+  padding: 8px 8px;
+}
+
+.sidebar ul{
+  padding-inline-start: 0px;
 }
 
 .card-container{
-  margin-left: 300px;
   gap: 32px;
   display: flex;
   flex-direction: row;
